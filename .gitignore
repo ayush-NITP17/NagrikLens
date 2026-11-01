@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pyc
+data/*.sqlite3
+data/*.sqlite3-shm
+data/*.sqlite3-wal
+evaluation/my_labelled_questions.jsonl
+evaluation/results/
+*.sqlite3-journal
